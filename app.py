@@ -36,5 +36,4 @@ def lottery_buying():
             result = {"error": f"Sorry, Lotto service sell only 2 digits , Pls try ex: 82, 09, 33 .."}
     except Exception as e:
         result = {"error": str(e)}
-        raise e
     return result
